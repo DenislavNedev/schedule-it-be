@@ -10,6 +10,7 @@ sourceCompatibility = '1.8'
 
 repositories {
     mavenCentral()
+    maven { url 'http://nexus.saas.hand-china.com/content/repositories/rdc/' }
 }
 
 dependencies {
@@ -17,7 +18,7 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testImplementation 'org.springframework.security:spring-security-test'
-    runtime('com.oracle:ojdbc7:12.1.0.2.0')
+    compile files('ojdbc7.jar')
     runtimeOnly 'mysql:mysql-connector-java'
 }
 
