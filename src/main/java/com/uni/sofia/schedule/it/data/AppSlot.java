@@ -31,7 +31,7 @@ public class AppSlot {
     private int period;
 
     @Column(name = "delay", nullable = false)
-    private int delay;
+    private Integer delay;
 
     public AppSlot() {
     }
@@ -54,6 +54,6 @@ public class AppSlot {
     public int getPeriod() { return period; }
     public void setPeriod(int period) { this.period = period; }
 
-    public int getDelay() { return delay; }
-    public void setDelay(int delay) { this.delay = delay; }
+    public Integer getDelay() { return delay; }
+    public void setDelay(Integer delay) { this.delay = delay; }
 }
