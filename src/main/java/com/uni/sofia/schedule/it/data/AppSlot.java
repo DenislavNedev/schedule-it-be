@@ -42,6 +42,9 @@ public class AppSlot {
     public String getName() { return name; }
     public void setName(String name) { this.name = name; }
 
+    public String getDate() { return date; }
+    public void setDate(String date) { this.date = date; }
+
     public String getStartHour() { return startHour; }
     public void setStartHour(String startHour) { this.startHour = startHour; }
 
