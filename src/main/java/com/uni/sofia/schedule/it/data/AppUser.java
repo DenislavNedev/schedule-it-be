@@ -19,7 +19,7 @@ public class AppUser {
     private String username;
     @Column(name = "password", nullable = false)
     private String password;
-    @Column(name = "faculty_number", unique = true, nullable = false)
+    @Column(name = "faculty_number")
     private int facultyNumber;
     @Column(name = "name", nullable = false)
     private String name;
