@@ -13,4 +13,9 @@ public class EndPointsConstants {
     public static final String GET_ALL_SLOTS_ENDPOINT = "/all-slots";
     public static final String ADD_SLOT_ENDPOINT = "/add-slot";
     public static final String SAVE_DELAY_ENDPOINT = "/save-delay";
+
+    public static final String EVENTS_CONTROLLER_ENDPOINT = "/api/events";
+    public static final String GET_ALL_EVENTS_ENDPOINT = "/all-events";
+    public static final String ADD_EVENT_ENDPOINT = "/add-event";
+
 }
