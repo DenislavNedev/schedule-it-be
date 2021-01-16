@@ -29,6 +29,39 @@ public class AppEvent {
     @Column(name = "end", nullable = false)
     private Date end;
 
+    @Column(name = "description", nullable = false)
+    private String description;
+
+    @Column(name = "presentation_url", nullable = false)
+    private String presentationUrl;
+
+    @Column(name = "meeting_url", nullable = false)
+    private String meetingUrl;
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getPresentationUrl() {
+        return presentationUrl;
+    }
+
+    public void setPresentationUrl(String presentationUrl) {
+        this.presentationUrl = presentationUrl;
+    }
+
+    public String getMeetingUrl() {
+        return meetingUrl;
+    }
+
+    public void setMeetingUrl(String meetingUrl) {
+        this.meetingUrl = meetingUrl;
+    }
+
     public String getUsername() {
         return username;
     }
